@@ -56,3 +56,21 @@ function getTriangleArea($square_area)
 echo $square_area =getSquareArea(5, 5);
 echo "\n";
 echo getTriangleArea($square_area);
+
+
+$subjects_score = array(
+
+  'english' => 70,
+
+  'math' => 85,
+
+  'japanese' => 50,
+
+  'science' => 45,
+);
+
+$subjects_score['history'] = 80;
+
+unset($subjects_score['science']);
+
+var_dump($subjects_score);
